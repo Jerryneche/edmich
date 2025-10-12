@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function ThanksPage() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-black text-white px-6 text-center">
@@ -5,9 +7,9 @@ export default function ThanksPage() {
       <p className="text-lg md:text-xl text-neutral-400 max-w-xl mb-10">
         We’ve received your request. Our team will reach out to you shortly.
       </p>
-      <link href="/" className="btn btn-primary">
+      <Link href="/" className="btn btn-primary">
         Back to Home
-      </link>
+      </Link>
     </main>
   );
 }
